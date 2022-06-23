@@ -1,0 +1,30 @@
+{
+    "name": "zhongshaofa/easyadmin-route",
+    "description": "easyadmin路由组件",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhongshaofa",
+            "email": "2286732552@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.1.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "topthink/framework": "^6.0.0",
+        "phpunit/phpunit": "^8.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EasyadminRoute\\": "src",
+            "Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit --testdox"
+    }
+}
